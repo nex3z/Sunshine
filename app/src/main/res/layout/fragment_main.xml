@@ -12,6 +12,8 @@
     <ListView
         android:id="@+id/listview_forecast"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:divider="#B6B6B6"
+        android:dividerHeight="1dp" />
 
 </FrameLayout>
