@@ -106,6 +106,7 @@ public class FetchWeatherTask extends AsyncTask<String, Void, Void> {
                                             String locationSetting)
             throws JSONException {
 
+        Log.d(LOG_TAG, "getWeatherDataFromJson(): forecastJsonStr = " + forecastJsonStr + "locationSetting = " + locationSetting);
         // Now we have a String representing the complete forecast in JSON Format.
         // Fortunately parsing is easy:  constructor takes the JSON string and converts it
         // into an Object hierarchy for us.
