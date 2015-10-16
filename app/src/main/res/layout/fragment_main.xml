@@ -3,17 +3,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingLeft="@dimen/activity_horizontal_margin"
+
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:showIn="@layout/activity_main"
-    tools:context=".MainActivityFragment">
+    tools:context=".MainActivity$ForecastFragment">
 
     <ListView
         android:id="@+id/listview_forecast"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:divider="#B6B6B6"
-        android:dividerHeight="1dp" />
+        android:layout_height="match_parent" />
 
 </FrameLayout>
